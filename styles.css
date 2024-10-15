@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  position: relative;
+  top: 0;
+}
+nav {
+  background-color: #08748c;
+}
+header nav .container {
+  width: 100vw;
+  height: 107px;
+  padding: 16px 12px;
+}
+.image-1 {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+}
+.hamburger div {
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  border-radius: 100px;
+}
+.con {
+  display: none;
+}
+@media (min-width: 1000px) {
+  .con {
+    display: flex;
+    align-items: center;
+    gap: 198px;
+  }
+}
+#nav-links {
+  display: flex;
+  width: 287px;
+  height: 27px;
+  gap: 59px;
+}
+#nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  width: 57px;
+  height: 26px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Reddit Sans", sans-serif;
+  line-height: 25.98px;
+}
+#nav-links a:hover {
+  text-decoration: underline;
+}
+#nav-button {
+  display: flex;
+  gap: 7px;
+}
+#nav-button {
+  width: 365px;
+  height: 50px;
+}
+#nav-button button {
+  border-radius: 8px;
+  padding: 12px 36px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Reddit Sans", sans-serif;
+  line-height: 25.98px;
+}
+#nav-button #first {
+  width: 207px;
+  height: 50px;
+  background-color: #f97f0f;
+  color: white;
+}
+#nav-button #first:hover {
+  background-color: white;
+  color: #08748c;
+}
+#nav-button #second {
+  width: 146px;
+  height: 50px;
+  background-color: transparent;
+  color: #f97f0f;
+  border: 1px solid #f97f0f;
+}
+#nav-button #second:hover {
+  color: black;
+  border: 1px solid black;
+}
+
+header section {
+  background-color: #08748c4d;
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+@media (min-width: 1000px) {
+  .col-lg-5 {
+    margin-right: 100px;
+  }
+}
+header .text-start h1 {
+  font-size: 45px;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+header .text-start p {
+  font-size: 16px;
+  font-family: "Reddit Sans", sans-serif;
+  font-weight: 600;
+  line-height: 20.78px;
+  margin-bottom: 27px;
+}
+header #head button, main .second-section #head button, main .fourth-section .first-side #head button, main .sixth-section .sixth #head button{
+  width: 150px;
+  height: 50px;
+  border-radius: 8px;
+  padding: 12px 36px;
+  border: none;
+  font-size: 11.6px;
+  font-weight: 500;
+  font-family: "Reddit Sans", sans-serif;
+  line-height: 25.98px;
+}
+@media (min-width: 1000px) {
+  header .text-start h1 {
+    font-size: 65px;
+    margin-top: 100px;
+  }
+  header .text-start p {
+    font-size: 16px;
+  }
+  header #head button, main .second-section #head button, main .fourth-section .first-side #head button, main .sixth-section .sixth #head button {
+    width: 248px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
+header #head #first, main .second-section #head #first, main .fourth-section .first-side #head #first, main .sixth-section .sixth #head #first{
+  background-color: #f97f0f;
+  color: white;
+  margin-right: 7px;
+}
+header #head #first:hover, main .second-section #head #first:hover, main .fourth-section .first-side #head #first:hover, main .sixth-section .sixth #head #first:hover {
+  background-color: white;
+  color: #08748c;
+}
+header #head #second, main .second-section #head #second, main .fourth-section .first-side #head #second, main .sixth-section .sixth #head #second {
+  background-color: transparent;
+  color: #f97f0f;
+  border: 1px solid #f97f0f;
+}
+header #head #second:hover, main .second-section #head #second:hover, main .fourth-section .first-side #head #second:hover, main .sixth-section .sixth #head #second:hover {
+  color: black;
+  border: 1px solid black;
+}
+header #d-flex {
+  position: absolute;
+  top: 778px;
+  left: 297px;
+  background-color: #fcbb80;
+  margin: auto;
+  width: 1000px;
+  padding: 45px 35px 5px;
+  border-radius: 10px;
+  box-shadow: 3px 4px 25px 2px #08748c40;
+}
+header #d-flex div h3 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: left;
+}
+header #d-flex div p {
+  font-family: "Reddit Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 50.91px;
+  text-align: left;
+}
+main {
+  margin-top: 70px;
+}
+main .first-section {
+  background-image: url(./Group\ 3.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 25px;
+}
+main .first-section .text-start h1 {
+  font-family: "Righteous", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+main .first-section .text-start p {
+  font-family: "Reddit Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+main .first-section .text-start button {
+  width: 150px;
+  height: 50px;
+  background-color: #f97f0f;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 36px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Reddit Sans", sans-serif;
+  line-height: 25.98px;
+}
+main .first-section .text-start button:hover {
+  background-color: white;
+  color: #08748c;
+}
+main .first-section .col-lg-5 {
+  position: relative;
+  top: 0;
+}
+main .first-section #privacy {
+  position: absolute;
+  top: 90px;
+  left: -105px;
+}
+main .first-section #diverse {
+  position: absolute;
+  bottom: 90px;
+  left: -85px;
+}
+main .first-section #flexible {
+  position: absolute;
+  bottom: 80px;
+  right: -75px;
+}
+main .second-section{
+  background-color: #B5D5DD;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 25px;
+}
+main .second-section #text{
+  text-align: start;
+}
+main .second-section #text h2{
+  font-family: "Righteous", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+}
+main .second-section #text p{
+  font-family: "Reddit Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+main .second-section #text #list ul{
+  font-family: "Reddit Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 2;
+}  
+@media (min-width:1000px){
+  main .second-section{
+  background-color: #B5D5DD;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 0px;
+}
+main .second-section #text{
+  text-align: start;
+}
+main .second-section #text h2{
+  font-family: "Righteous", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+main .second-section #text p{
+  font-family: "Reddit Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+main .second-section #text #list ul{
+  font-family: "Reddit Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+} 
+}
+main .second-section #text #list ul li{
+  color: #f97f0f;
+}
+main .second-section #text #list ul li span{
+  color: black;
+}
+main .third-section {
+  margin-top: 55px;
+}
+main .third-section h2{
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Righteous", sans-serif;
+}
+main .third-section p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Reddit Sans", sans-serif;
+  margin-bottom: 38px;
+}
+main .third-section .arrows div h3{
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Righteous", sans-serif;
+  margin: 25px 0px 15px;
+}
+main .third-section .arrows div h5{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Reddit Sans", sans-serif;
+  margin-bottom: 60px;
+}
+main .fourth-section .row .col-5{
+  margin-right: 80px;
+}
+main .fourth-section .row .col-5 .first-side h1{
+  font-size: 58px;
+  font-weight: 400;
+  font-family: "Righteous", sans-serif;
+}
+main .fourth-section .row .col-5 .first-side p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Reddit Sans", sans-serif;
+  margin: 15px 0px;
+}
+main .fourth-section .row .col-6 .second-side div{
+  border-radius: 14px;
+  padding: 0px 10px;
+}
+main .fourth-section .row .col-6 .second-side div img{
+  margin-top: 15px;
+}
+main .fourth-section .row .col-6 .second-side div h2{
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Righteous", sans-serif;
+  margin: 15px 0px;
+}
+main .fourth-section .row .col-6 .second-side div p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Reddit Sans", sans-serif;
+}
+main .fourth-section .row .col-6 .second-side div #first-box, #fourth-box{
+  background-color: #CFD0ED;
+}
+main .fourth-section .row .col-6 .second-side div #second-box, #third-box{
+  background-color: #BFE6DD;
+}
+main .fifth-section h1{
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Righteous", sans-serif;
+}
+@media (min-width:1000px){
+  main .fifth-section h1{
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Righteous", sans-serif;
+}
+main .fifth-section #all-cus div p{
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Reddit Sans", sans-serif;
+  margin-bottom: 35px;
+}
+main .fifth-section #all-cus div h3{
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "Reddit Sans", sans-serif;
+}
+}
+main .fifth-section #all-cus > div{
+  background-color: #F6FDFF;
+  box-shadow: 0px 2px 4px 0px #00000040;
+  padding: 15px;
+  border-radius: 10px;
+}
+main .fifth-section #all-cus div p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Reddit Sans", sans-serif;
+  margin-bottom: 35px;
+}
+main .fifth-section #all-cus div h3{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Reddit Sans", sans-serif;
+}
+main .sixth-section{
+  background-image: url(./project/leafbg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main .sixth-section .sixth h1{
+  font-size: 35px;
+  color: #ffffff;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+}
+@media (min-width:1000px){
+  main .sixth-section .sixth{
+    width: 50%;
+  }
+  main .sixth-section .sixth h1{
+  font-size: 48px;
+  color: #ffffff;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+}
+main .sixth-section .sixth #head #first{
+  margin-bottom: 0px;
+}
+}
+footer {
+  background-color: #000;
+}
+
+footer .container #left p{
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Reddit Sans", sans-serif;
+  font-weight: 400;
+}
+footer .container #left #subscribe{
+  position: relative;
+  top: 0;
+}
+footer .container #left #subscribe input{
+  width: 100%;
+  height: 55px;
+  border-radius: 8px;
+  border: none;
+}
+footer .container #left #subscribe input::placeholder{
+  font-size: 18px;
+  color: #000;
+}
+footer .container #left #subscribe button{
+  width: 105px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f97f0f;
+  color: #ffffff;
+  position: absolute;
+  right: 8px;
+  top: 7px;
+}
+footer .container #left #subscribe button:hover{
+  background-color: white;
+  color: #08748c;
+  border: 1px solid #08748c;
+}
+footer .container #center h5{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Reddit Sans", sans-serif;
+  color: #ffffff;
+  line-height: 50px;
+}
+footer .container #center #links a{
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 35px;
+  font-weight: 500;
+  font-family: "Reddit Sans", sans-serif;
+}
+footer .container #right h5{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Reddit Sans", sans-serif;
+  color: #ffffff;
+  line-height: 50px;
+}
+@media (min-width:1000px){
+ footer .container #left{
+  width: 35%;
+}
+footer .container #center h5{
+  font-size: 24px;
+}
+footer .container #right h5{
+  font-size: 24px;
+}
+footer .container #left p{
+  font-size: 18px;
+}
+footer .container #center{
+  margin-top: 0;
+}
+footer .container #right{
+  margin-top: 0;
+}
+}
+
+
+
